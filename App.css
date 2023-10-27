@@ -1,0 +1,126 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #9bc4fd;
+}
+
+.login-gif {
+  height: 35vh;
+}
+
+.welcome-message {
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.welcome-message-login {
+  font-size: 3.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.login-button {
+  width: 215px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #104eca;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #0069d9;
+  color:#fff;
+}
+
+
+.connected-container {
+  background-image: url('../public/connected-background-img.jpg');
+  background-position: center;
+  background-size: contain;
+  background-origin: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.connected-header {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: white
+}
+
+.connected-account {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: white;
+  font-weight: 600;
+}
+
+.connected-button {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.3rem;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.connected-button:hover {
+  background-color: #0069d9;
+}
+
+.connected-contract-address {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+
+.candidates-table {
+  border-collapse: collapse;
+  width: 50%;
+  text-align: center;
+}
+
+.candidates-table th, .candidates-table td {
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  color: white;
+  font-weight: 600;
+}
+
+.candidates-table th {
+  background-color: #f2f2f2;
+  color: black;
+  font-weight: 700;
+}
+
+input[type=number] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-bottom: 10px;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+  border-radius: 10px;
+}
